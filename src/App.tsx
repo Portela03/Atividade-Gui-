@@ -7,12 +7,7 @@ import { getFirestore, collection, addDoc } from 'firebase/firestore';
 const App = () => {
 
   const firebaseConfig = {
-    apiKey: "AIzaSyCXopIGq5pj3MH_r430-AnNplaqD6w5uTM",
-    authDomain: "atividade-gui-1.firebaseapp.com",
-    projectId: "atividade-gui-1",
-    storageBucket: "atividade-gui-1.appspot.com",
-    messagingSenderId: "321579827051",
-    appId: "1:321579827051:web:b3c6166a529d8ef80c562e"
+    
   };
 
   const app = initializeApp(firebaseConfig);

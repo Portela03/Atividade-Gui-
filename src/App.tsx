@@ -20,8 +20,7 @@ const App = () => {
 
   const [name, setName] = useState("");
   const [ra, setRa] = useState("");
-  const [loading, setLoading] = useState(false);
-  const [sent, setSent] = useState(false);
+ 
 
   const handleSubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
